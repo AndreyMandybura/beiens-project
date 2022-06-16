@@ -1,0 +1,23 @@
+.menuButton {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.iconMenu {
+    display: block;
+}
+
+.iconMenu .iconCross {
+    display: none;
+}
+
+.iconCross {
+    display: block;
+}
+
+.iconCross .iconMenu {
+    display: none;
+}
