@@ -10,12 +10,20 @@
     display: block;
 }
 
+.iconMenu:hover {
+    fill: blue;
+}
+
 .iconMenu .iconCross {
     display: none;
 }
 
 .iconCross {
     display: block;
+}
+
+.iconCross:hover {
+    fill: blue;
 }
 
 .iconCross .iconMenu {
