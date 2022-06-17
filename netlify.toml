@@ -3,7 +3,7 @@ publish = ".next"
 
 [[redirects]]
 from = "/*"
-to = "/index.html"
+to = "/index.js"
 status = 200
 
 [[plugins]]
