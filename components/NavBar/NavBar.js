@@ -24,11 +24,11 @@ export function NavBar({ children }) {
                 </div>
                 <div className={active ? s.activeSideNav : s.sideNav}>
                     <ul className={s.navList}>
-                        <li><Link href={'/'}><a>Головна</a></Link></li>
-                        <li><Link href={'/catalog'}><a>Каталог</a></Link></li>
-                        <li><Link href={'/brand'}><a>Про бренд</a></Link></li>
-                        <li><Link href={'/gallery'}><a>Галерея</a></Link></li>
-                        <li><Link href={'/contacts'}><a>Контакти</a></Link></li>
+                        <li className={s.navItem}><Link href={'/'}><a>Головна</a></Link></li>
+                        <li className={s.navItem}><Link href={'/catalog'}><a>Каталог</a></Link></li>
+                        <li className={s.navItem}><Link href={'/brand'}><a>Про бренд</a></Link></li>
+                        <li className={s.navItem}><Link href={'/gallery'}><a>Галерея</a></Link></li>
+                        <li className={s.navItem}><Link href={'/contacts'}><a>Контакти</a></Link></li>
                     </ul>
                 </div>
             </nav>
