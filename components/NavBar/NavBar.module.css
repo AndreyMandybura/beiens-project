@@ -2,8 +2,16 @@
     background: #fff;
 }
 
+@media (min-width: 768px) {
+    .navContainer {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .navWrapper {
-    padding: 10px 20px 5px 20px;
+    padding: 10px 15px 5px 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,6 +24,12 @@
     border: none;
     background-color: transparent;
     fill: #514f4e;
+}
+
+@media (min-width: 768px) {
+    .menuButton {
+        display: none;
+    }
 }
 
 .iconMenu {
@@ -42,6 +56,23 @@
     display: none;
 }
 
+.navList {
+    display: none;
+    list-style-type: none;
+    width: 900px;
+}
+
+@media (min-width: 768px) {
+    .navList {
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    }
+}
+
 .sideNav {
     position: fixed;
     width: 100%;
@@ -49,6 +80,12 @@
     background: #fff;
     transform: translateX(100%);
     transition: all 0.5s;
+}
+
+@media (min-width: 768px) {
+    .sideNav {
+        display: none;
+    }
 }
 
 .activeSideNav {
@@ -61,15 +98,15 @@
 
 }
 
-.navList {
+.sideNavList {
     list-style-type: none;
     font-size: 24px;
     font-weight: 700;
 }
 
-.navItem {
+.sideNavItem {
     color: #514f4e;
 }
-.navItem:hover {
+.sideNavItem:hover {
     color: #3f8cce;
 }
