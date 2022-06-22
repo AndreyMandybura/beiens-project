@@ -34,9 +34,6 @@
 
 .iconMenu {
     display: block;
-}
-
-.iconMenu:hover {
     fill: #3f8cce;
 }
 
@@ -46,9 +43,6 @@
 
 .iconCross {
     display: block;
-}
-
-.iconCross:hover {
     fill: #3f8cce;
 }
 
@@ -71,6 +65,20 @@
     margin: 0;
     padding: 0;
     }
+}
+
+.navItem {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    line-height: 1.65em;
+    color: #514f4e;
+}
+
+.navItem:hover,
+.navItem:focus {
+    color: #3f8cce;
 }
 
 .sideNav {
@@ -100,13 +108,19 @@
 
 .sideNavList {
     list-style-type: none;
-    font-size: 24px;
-    font-weight: 700;
+    padding-top: 30px;
+    padding-left: 25px;
 }
 
 .sideNavItem {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    line-height: 1.65em;
     color: #514f4e;
 }
-.sideNavItem:hover {
-    color: #3f8cce;
+
+.sideNavItem:not(:last-child) {
+    margin-bottom: 30px;
 }

@@ -15,11 +15,11 @@ export function NavBar({ children }) {
                     <div className={s.navWrapper}>
                         <Link href={'/'}><a><Image src={logo} alt="logo" width={150} height={46} /></a></Link>
                             <ul className={s.navList}>
-                                <li className={s.navItem}><Link href={'/'}><a>Головна</a></Link></li>
-                                <li className={s.navItem}><Link href={'/catalog'}><a>Каталог</a></Link></li>
-                                <li className={s.navItem}><Link href={'/brand'}><a>Про бренд</a></Link></li>
-                                <li className={s.navItem}><Link href={'/gallery'}><a>Галерея</a></Link></li>
-                                <li className={s.navItem}><Link href={'/contacts'}><a>Контакти</a></Link></li>
+                                <li className={s.navItem}><Link href={'/'}><a>головна</a></Link></li>
+                                <li className={s.navItem}><Link href={'/catalog'}><a>каталог</a></Link></li>
+                                <li className={s.navItem}><Link href={'/brand'}><a>про бренд</a></Link></li>
+                                <li className={s.navItem}><Link href={'/gallery'}><a>галерея</a></Link></li>
+                                <li className={s.navItem}><Link href={'/contacts'}><a>контакти</a></Link></li>
                             </ul>
                         <button type="button" className={s.menuButton} onClick={() => setActive(!active)}>
                             <svg width={40} height={40} aria-label="Mobile menu switch" className={active ? s.iconCross : s.iconMenu}>
@@ -31,11 +31,11 @@ export function NavBar({ children }) {
                 </div>
                 <div className={active ? s.activeSideNav : s.sideNav}>
                     <ul className={s.sideNavList}>
-                        <li className={s.sideNavItem}><Link href={'/'}><a>Головна</a></Link></li>
-                        <li className={s.sideNavItem}><Link href={'/catalog'}><a>Каталог</a></Link></li>
-                        <li className={s.sideNavItem}><Link href={'/brand'}><a>Про бренд</a></Link></li>
-                        <li className={s.sideNavItem}><Link href={'/gallery'}><a>Галерея</a></Link></li>
-                        <li className={s.sideNavItem}><Link href={'/contacts'}><a>Контакти</a></Link></li>
+                        <li className={s.sideNavItem}><Link href={'/'}><a>головна</a></Link></li>
+                        <li className={s.sideNavItem}><Link href={'/catalog'}><a>каталог</a></Link></li>
+                        <li className={s.sideNavItem}><Link href={'/brand'}><a>про бренд</a></Link></li>
+                        <li className={s.sideNavItem}><Link href={'/gallery'}><a>галерея</a></Link></li>
+                        <li className={s.sideNavItem}><Link href={'/contacts'}><a>контакти</a></Link></li>
                     </ul>
                 </div>
             </nav>
