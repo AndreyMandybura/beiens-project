@@ -1,15 +1,23 @@
 import Link from "next/link";
 import Image from 'next/image';
+import Head from "next/head";
 import { useState } from "react";
 import CloseBtn from "../../images/svg/close_40px.svg";
 import MenuIcon from "../../images/svg/menu_24px.svg";
 import logo from "../../images/logo.png";
 import s from "./NavBar.module.css";
 
-export function NavBar({ children }) {
+export function NavBar({ children, title='Beiens' }) {
     const [active, setActive] = useState(false);
     return (
         <>
+            <Head>
+                <title>Beiens | {title}</title>
+                <meta charset="UTF-8" />
+                <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+                <meta name="keywords" content="beiens" />
+                <meta name="description" content="this is site beiens" />
+            </Head>
             <nav>
                 <div className={s.navContainer}>
                     <div className={s.navWrapper}>
