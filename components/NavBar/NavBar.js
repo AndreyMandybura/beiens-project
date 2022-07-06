@@ -13,15 +13,15 @@ export function NavBar({ children, title='Beiens' }) {
         <>
             <Head>
                 <title>Beiens | {title}</title>
-                <meta charset="UTF-8" />
+                <meta charSet="UTF-8" />
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
                 <meta name="keywords" content="beiens" />
-                <meta name="description" content="this is site beiens" />
+                <meta name="description" content="This is the official website of children's toys brand Beiens in Ukraine" />
             </Head>
-            <nav>
+            <nav className="container">
                 <div className={s.navContainer}>
                     <div className={s.navWrapper}>
-                        <Link href={'/'}><a><Image src={logo} alt="logo" width={150} height={46} /></a></Link>
+                        <Link href={'/'}><a className={s.logo} ><Image src={logo} alt="logo" width={150} height={46} /></a></Link>
                             <ul className={s.navList}>
                                 <li className={s.navItem}><Link href={'/'}><a>головна</a></Link></li>
                                 <li className={s.navItem}><Link href={'/catalog'}><a>каталог</a></Link></li>

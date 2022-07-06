@@ -2,7 +2,6 @@
 const nextConfig = {
   reactStrictMode: true,
 }
-
 module.exports = {
   nextConfig,
   webpack(config) {
@@ -15,4 +14,3 @@ module.exports = {
     return config
   },
 };
-

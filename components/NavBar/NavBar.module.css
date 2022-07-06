@@ -17,6 +17,10 @@
     align-items: center;
 }
 
+.logo {
+    margin-right: 45px;
+}
+
 .menuButton {
     display: inline-flex;
     margin: 0;
@@ -88,6 +92,7 @@
     background: #fff;
     transform: translateX(100%);
     transition: all 0.5s;
+    z-index: 999;
 }
 
 @media (min-width: 768px) {
@@ -104,6 +109,7 @@
     transform: translateX(50%);
     transition: all 0.5s;
     overflow-y: auto;
+    z-index: 999;
 }
 
 .sideNavList {
