@@ -51,9 +51,12 @@ export function Trendind() {
                     <p className={s.cardTitle}>розвиваючі центри</p>
                 </div>
                 <div className={s.trendidItem}>
-                    <Image src={tablets} 
-                                            objectFit="cover"
-                    alt="child with tablet"/>
+                    <div className={s.trendidImg}>
+                        <Image src={tablets} 
+                            layout="fill"
+                            objectFit="cover"
+                            alt="child with tablet" />
+                    </div>
                     <p className={s.cardTitle}>графічні планшети</p>
                 </div>
             </div>
