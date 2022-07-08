@@ -1,0 +1,46 @@
+.titleText {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    line-height: 1.65em;
+    color: #514f4e;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.trendidThumb {
+    display: flex;
+    overflow-x: auto;
+    min-width: 100%;
+}
+
+.trendidItem {
+    min-width: 80%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+        max-width: 370px;
+        height: 294px;
+}
+
+.trendidImg {
+    position: relative;
+    width: 370px;
+    height: 294px;
+}
+
+.cardTitle {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    line-height: 1.65em;
+    color: #514f4e;
+}

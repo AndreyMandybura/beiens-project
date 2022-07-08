@@ -14,15 +14,19 @@ a {
     box-sizing: border-box;
 }
 
-ul {
+ul,
+h1,
+h2,
+h3,
+p {
     margin: 0;
     padding: 0;
 }
 
 .container {
     max-width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-left: auto;
     margin-right: auto;
 }
