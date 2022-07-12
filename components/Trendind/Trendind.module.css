@@ -17,6 +17,16 @@
     min-width: 100%;
 }
 
+@media (min-width: 768px) {
+    .trendidThumb {
+        overflow-x: unset;
+        min-width: unset;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-right: -15px;
+    }
+}
+
 .trendidItem {
     min-width: 80%;
     margin-right: 15px;
@@ -25,12 +35,116 @@
     flex-direction: column;
     align-items: center;
     overflow: hidden;
+    flex-basis: 100%;
+}
+
+@media (min-width: 768px) {
+    .trendidItem {
+        min-width: unset;
+        overflow: unset;
+        flex-basis: calc((100% - 2 * 15px) / 2);  
+        margin-right: 15px;      
+    }
+}
+
+@media (min-width: 1200px) {
+    .trendidItem {
+        flex-basis: calc((100% - 3 * 15px) / 3);
+    }
 }
 
 .trendidImg {
     position: relative;
     width: 370px;
     height: 294px;
+}
+
+.trendidImg:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .2);
+    opacity: 0;
+    transition-duration: 500ms;
+}
+
+@media (min-width: 768px) {
+    .trendidImg {
+        width: 365px;
+        height: 305px;
+        transition: transform 500ms;
+    }
+
+        .trendidImg:hover {
+            transform: scale(1.05);
+        }
+        
+    .trendidImg:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, .2);
+        opacity: 0;
+        transition-duration: 500ms;
+    }
+        
+        .trendidImg:hover:after {
+            opacity: 1;
+        }
+}
+
+@media (min-width: 1200px) {
+    .trendidImg {
+        width: 582px;
+        height: 490px;
+    }
+}
+
+.trendidImgSL {
+    position: relative;
+    width: 370px;
+    height: 294px;
+}
+
+@media (min-width: 768px) {
+    .trendidImgSL {
+        width: 365px;
+        height: 305px;
+        transition: transform 500ms;
+    }
+
+        .trendidImgSL:hover {
+            transform: scale(1.05);
+        }
+
+    .trendidImgSL:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, .2);
+        opacity: 0;
+        transition-duration: 500ms;
+    }
+
+        .trendidImgSL:hover:after {
+            opacity: 1;
+        }
+}
+
+@media (min-width: 1200px) {
+    .trendidImgSL {
+        width: 382px;
+        height: 370px;
+    }
 }
 
 .cardTitle {

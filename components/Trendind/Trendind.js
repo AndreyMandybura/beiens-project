@@ -33,7 +33,7 @@ export function Trendind() {
             </div>
             <div className={s.trendidThumb}>
                 <div className={s.trendidItem}>
-                    <div className={s.trendidImg}>
+                    <div className={s.trendidImgSL}>
                         <Image src={pens}
                             layout="fill"
                             objectFit="cover"
@@ -42,7 +42,7 @@ export function Trendind() {
                     <p className={s.cardTitle}>3D ручки</p>
                 </div>
                 <div className={s.trendidItem}>
-                    <div className={s.trendidImg}>
+                    <div className={s.trendidImgSL}>
                         <Image src={babyRugs} 
                             layout="fill"
                             objectFit="cover"
@@ -51,7 +51,7 @@ export function Trendind() {
                     <p className={s.cardTitle}>розвиваючі центри</p>
                 </div>
                 <div className={s.trendidItem}>
-                    <div className={s.trendidImg}>
+                    <div className={s.trendidImgSL}>
                         <Image src={tablets} 
                             layout="fill"
                             objectFit="cover"
