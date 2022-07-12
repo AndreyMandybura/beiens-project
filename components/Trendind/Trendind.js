@@ -11,8 +11,8 @@ export function Trendind() {
     return (
         <>
             <h2 className={s.titleText}>популярне</h2>
-            <div className={s.trendidThumb}>
-                <div className={s.trendidItem}>
+            <ul className={s.trendidThumb}>
+                <li className={s.trendidItem}>
                     <div className={s.trendidImg}>
                         <Image src={forBabies} 
                             layout="fill"
@@ -20,8 +20,8 @@ export function Trendind() {
                             alt="child with a toy" />
                     </div>
                     <p className={s.cardTitle}>для малюків</p>
-                </div>
-                <div className={s.trendidItem}>
+                </li>
+                <li className={s.trendidItem}>
                     <div className={s.trendidImg}>
                         <Image src={rattles} 
                             layout="fill"
@@ -29,10 +29,10 @@ export function Trendind() {
                             alt="child with a toys" />
                     </div>
                     <p className={s.cardTitle}>брязкальця та гризунці</p>
-                </div>
-            </div>
-            <div className={s.trendidThumb}>
-                <div className={s.trendidItem}>
+                </li>
+            </ul>
+            <ul className={s.trendidThumb}>
+                <li className={s.trendidItem}>
                     <div className={s.trendidImgSL}>
                         <Image src={pens}
                             layout="fill"
@@ -40,8 +40,8 @@ export function Trendind() {
                             alt="mother playing with child" />
                     </div>
                     <p className={s.cardTitle}>3D ручки</p>
-                </div>
-                <div className={s.trendidItem}>
+                </li>
+                <li className={s.trendidItem}>
                     <div className={s.trendidImgSL}>
                         <Image src={babyRugs} 
                             layout="fill"
@@ -49,8 +49,8 @@ export function Trendind() {
                             alt="child playing on a children's rug" />
                     </div>
                     <p className={s.cardTitle}>розвиваючі центри</p>
-                </div>
-                <div className={s.trendidItem}>
+                </li>
+                <li className={s.trendidItem}>
                     <div className={s.trendidImgSL}>
                         <Image src={tablets} 
                             layout="fill"
@@ -58,8 +58,8 @@ export function Trendind() {
                             alt="child with tablet" />
                     </div>
                     <p className={s.cardTitle}>графічні планшети</p>
-                </div>
-            </div>
+                </li>
+            </ul>
         </>
     );
 }
