@@ -1,4 +1,7 @@
-html,
+html {
+    box-sizing: border-box;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -18,11 +21,16 @@ a {
     box-sizing: border-box;
 }
 
-ul,
 h1,
 h2,
 h3,
 p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
     margin: 0;
     padding: 0;
 }

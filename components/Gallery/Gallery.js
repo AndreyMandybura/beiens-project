@@ -12,95 +12,97 @@ export function Gallery() {
 
     return (
         <>
-            <h2 className={s.titleText}>галерея</h2>
-            <ul className={s.galleryThumb}>
-                <li className={s.galleryItem}>
-                    <Link href={'/gallery'}>
-                        <a>
-                            <div className={s.galleryImg}>
-                                <Image
-                                    src={gallery1}
-                                    layout="fill"
-                                    objectFit="cover"
-                                    alt="child with a toy"
-                                />
-                            </div>
-                        </a>
-                    </Link>
-                </li>
-                <li className={s.galleryItem}>
-                    <Link href={'/gallery'}>
-                        <a>
-                            <div className={s.galleryImg}>
-                                <Image
-                                    src={gallery2}
-                                    layout="fill"
-                                    objectFit="cover"
-                                    alt="child with a toy"
-                                />
-                            </div>
-                        </a>
-                    </Link>
-                </li>
-                <li className={s.galleryItem}>
-                    <Link href={'/gallery'}>
-                        <a>
-                            <div className={s.galleryImg}>
-                                <Image
-                                    src={gallery3}
-                                    layout="fill"
-                                    objectFit="cover"
-                                    alt="child with a toy"
-                                />
-                            </div>
-                        </a>
-                    </Link>
-                </li>
-            </ul>
-            <ul className={s.galleryThumb}>
-                <li className={s.galleryItem}>
-                    <Link href={'/gallery'}>
-                        <a>
-                            <div className={s.galleryImg}>
-                                <Image
-                                    src={gallery4}
-                                    layout="fill"
-                                    objectFit="cover"
-                                    alt="child with a toy"
-                                />
-                            </div>
-                        </a>
-                    </Link>
-                </li>
-                <li className={s.galleryItem}>
-                    <Link href={'/gallery'}>
-                        <a>
-                            <div className={s.galleryImg}>
-                                <Image
-                                    src={gallery5}
-                                    layout="fill"
-                                    objectFit="cover"
-                                    alt="child with a toy"
-                                />
-                            </div>
-                        </a>
-                    </Link>
-                </li>
-                <li className={s.galleryItem}>
-                    <Link href={'/gallery'}>
-                        <a>
-                            <div className={s.galleryImg}>
-                                <Image
-                                    src={gallery6}
-                                    layout="fill"
-                                    objectFit="cover"
-                                    alt="child with a toy"
-                                />
-                            </div>
-                        </a>
-                    </Link>
-                </li>
-            </ul>
+            <div className={s.gallerySection}>
+                <h2 className={s.titleText}>галерея</h2>
+                <ul className={s.galleryThumb}>
+                    <li className={s.galleryItem}>
+                        <Link href={'/gallery'}>
+                            <a>
+                                <div className={s.galleryImg}>
+                                    <Image
+                                        src={gallery1}
+                                        layout="fill"
+                                        objectFit="cover"
+                                        alt="child with a toy"
+                                    />
+                                </div>
+                            </a>
+                        </Link>
+                    </li>
+                    <li className={s.galleryItem}>
+                        <Link href={'/gallery'}>
+                            <a>
+                                <div className={s.galleryImg}>
+                                    <Image
+                                        src={gallery2}
+                                        layout="fill"
+                                        objectFit="cover"
+                                        alt="child with a toy"
+                                    />
+                                </div>
+                            </a>
+                        </Link>
+                    </li>
+                    <li className={s.galleryItem}>
+                        <Link href={'/gallery'}>
+                            <a>
+                                <div className={s.galleryImg}>
+                                    <Image
+                                        src={gallery3}
+                                        layout="fill"
+                                        objectFit="cover"
+                                        alt="child with a toy"
+                                    />
+                                </div>
+                            </a>
+                        </Link>
+                    </li>
+                </ul>
+                <ul className={s.galleryThumb}>
+                    <li className={s.galleryItem}>
+                        <Link href={'/gallery'}>
+                            <a>
+                                <div className={s.galleryImg}>
+                                    <Image
+                                        src={gallery4}
+                                        layout="fill"
+                                        objectFit="cover"
+                                        alt="child with a toy"
+                                    />
+                                </div>
+                            </a>
+                        </Link>
+                    </li>
+                    <li className={s.galleryItem}>
+                        <Link href={'/gallery'}>
+                            <a>
+                                <div className={s.galleryImg}>
+                                    <Image
+                                        src={gallery5}
+                                        layout="fill"
+                                        objectFit="cover"
+                                        alt="child with a toy"
+                                    />
+                                </div>
+                            </a>
+                        </Link>
+                    </li>
+                    <li className={s.galleryItem}>
+                        <Link href={'/gallery'}>
+                            <a>
+                                <div className={s.galleryImg}>
+                                    <Image
+                                        src={gallery6}
+                                        layout="fill"
+                                        objectFit="cover"
+                                        alt="child with a toy"
+                                    />
+                                </div>
+                            </a>
+                        </Link>
+                    </li>
+                </ul>
+            </div>
         </>
     );
 }

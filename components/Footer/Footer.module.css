@@ -1,0 +1,47 @@
+.footerSection {
+    border-top: 1px solid #3f8cce;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+    .footerSection {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.contactsList {
+    padding-top: 15px;
+    padding-bottom: 25px;
+    text-decoration: none;
+}
+
+.contactsItem,
+.catalogItem {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .05em;
+    line-height: 2em;
+    color: #514f4e;
+}
+
+.activeLink:hover {
+    color: #3f8cce;
+}
+
+@media (min-width: 1200px) {
+    .catalog {
+            column-count: 2;
+            column-gap: 25px;
+        }
+}
+
+.catalogTitle {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: .05em;
+    line-height: 1.65em;
+    color: #514f4e;
+    padding-bottom: 15px;
+}
