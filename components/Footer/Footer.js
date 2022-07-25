@@ -9,7 +9,11 @@ export function Footer() {
         <>
             <footer className={s.footerSection}>
                 <div className={s.contactsBox}>
-                    <Image className={s.footerImg} src={logo} alt="logo" width={150} height={46} />
+                    <Link href={'/'}>
+                        <a>
+                            <Image className={s.footerImg} src={logo} alt="logo" width={150} height={46} />
+                        </a>
+                    </Link>
                     <ul className={s.contactsList}>
                         <li className={s.contactsItem}>
                             <a className={s.activeLink} href='tel:+380674647785'>+38 067 464 77 85</a>
