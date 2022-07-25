@@ -34,7 +34,7 @@ export function BrandStory() {
                 <h2 className={s.title}>Світове визнання</h2>
             </div>
             <p className={s.text}>Beiens продовжує оновлювати лінійку своїх продуктів і удосконалювати послуги. Компанія заснувала свою фабрику і науково-дослідний центр, щоб надавати користувачам більш комплексні та наукові рішення. Сьогодні Beiens розвивається вже понад 10 років і являється брендом, який продається по всьому світу...</p>
-                <div className={s.bannerFooter}>
+            <div className={s.bannerFooter}>
                 <div className={s.bannerFooterImg}>
                 </div>
             </div>
