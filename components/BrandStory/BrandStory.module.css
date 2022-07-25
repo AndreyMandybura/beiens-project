@@ -1,0 +1,128 @@
+.bannerHeader {
+    padding-bottom: 30px;
+}
+
+.bannerHeaderImg {
+    height: 200px;
+    background-image: url('../../images/brand/brand1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+
+@media (min-width: 480px) {
+    .bannerHeaderImg {
+        height: 200px;
+        padding-top: 35px;
+    }
+}
+
+@media (min-width: 768px) {
+    .bannerHeaderImg {
+        height: 400px;
+        padding-top: 75px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .bannerHeaderImg {
+        height: 450px;
+        padding-top: 55px;
+    }
+}
+
+.bannerHeaderText {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    line-height: 1.65em;
+    color: #3f8cce;
+}
+
+@media (min-width: 480px) {
+    .bannerHeaderText {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .bannerHeaderText {
+        font-size: 70px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .bannerHeaderText {
+        font-size: 100px;
+    }
+}
+
+.textBox {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    line-height: 1.65em;
+    color: #514f4e;
+    display: inline-block;
+    border-bottom: 1px solid #3f8cce;
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .05em;
+    line-height: 2em;
+    color: #514f4e;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
+@media (min-width: 768px) {
+    .text {
+        font-size: 16px;
+    }
+}
+
+.bannerFooter {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bannerFooterImg {
+    height: 200px;
+    background-image: url('../../images/brand/brand2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 480px) {
+    .bannerFooterImg {
+        height: 200px;
+    }
+}
+
+@media (min-width: 768px) {
+    .bannerFooterImg {
+        height: 400px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .bannerFooterImg {
+        height: 450px;
+    }
+}
