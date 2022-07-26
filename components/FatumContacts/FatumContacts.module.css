@@ -1,0 +1,73 @@
+.contactsSection {
+    padding-bottom: 30px;
+}
+
+.contactsImg {
+    height: 250px;
+    background-image: url('../../images/fatumContacts/fatumContactsImg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 1200px) {
+    .contactsImg {
+        height: 400px;
+    }
+}
+
+.contactsSectionTitle {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: .05em;
+    line-height: 1.1em;
+    color: #514f4e;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.contactsTitle {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: .05em;
+    line-height: 1.65em;
+    color: #514f4e;
+    padding-bottom: 15px;
+}
+
+@media (min-width: 1200px) {
+    .contactsTitle {
+        padding-left: 100px;
+    }
+}
+
+.contactsList {
+    padding-bottom: 30px;
+}
+
+.contactsItem {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .05em;
+    line-height: 2em;
+    color: #514f4e;
+}
+
+@media (min-width: 1200px) {
+    .contactsItem {
+        padding-left: 100px;
+    }
+}
+
+.googleMap {
+    width: 100%;
+    height: 200px;
+}
+
+@media (min-width: 1200px) {
+    .googleMap {
+        width: 80%;
+        margin-left: 100px;
+    }
+}
