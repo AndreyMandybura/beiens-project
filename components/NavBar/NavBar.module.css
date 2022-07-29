@@ -1,4 +1,5 @@
 .navContainer {
+    position: relative;
     background: #fff;
 }
 
@@ -19,18 +20,15 @@
 
 @media (min-width: 768px) {
     .navWrapper {
-        padding: 10px 0px 5px 10px;
+        padding: 10px 0px 5px 0px;
+        
     }
 }
 
 @media (min-width: 1200px) {
     .navWrapper {
-        padding: 10px 0px 5px 30px;
+        padding: 10px 0px 5px 0px;
     }
-}
-
-.logo {
-    margin-right: 45px;
 }
 
 .menuButton {
@@ -66,20 +64,42 @@
     display: none;
 }
 
-.navList {
+.navListContainer {
     display: none;
-    list-style-type: none;
-    width: 900px;
+}
+
+@media (min-width: 768px) {
+    .navListContainer {
+        display: flex;
+    }
+}
+
+@media (max-width: 767px) {
+    .activeNavListContainer {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        width: 50%;
+        height: calc(100vh - 65px);
+        z-index: 999;
+        background-color: #fff;
+        padding: 20px;
+        font-size: 20px;
+        overflow-y: auto;
+    }
+}
+
+.navList {
+    padding-top: 15px;
 }
 
 @media (min-width: 768px) {
     .navList {
-    display: block;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0;
-    padding: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        padding: 0;
     }
 }
 
@@ -90,55 +110,27 @@
     letter-spacing: .05em;
     line-height: 1.65em;
     color: #514f4e;
+    padding-bottom: 15px;
+}
+
+@media (min-width: 480px) {
+    .navItem {
+        margin-left: 25px;
+    }
+}
+
+@media (min-width: 768px) {
+    .navItem {
+        padding-bottom: 0;    }
+}
+
+@media (min-width: 1200px) {
+    .navItem {
+        margin-left: 110px;
+    }
 }
 
 .navItem:hover,
 .navItem:focus {
     color: #3f8cce;
-}
-
-.sideNav {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #fff;
-    transform: translateX(100%);
-    transition: all 0.5s;
-    z-index: 999;
-}
-
-@media (min-width: 768px) {
-    .sideNav {
-        display: none;
-    }
-}
-
-.activeSideNav {
-    position: fixed;
-    width: 100%;
-    height: calc(100vh - 65px);
-    background: #fff;
-    transform: translateX(50%);
-    transition: all 0.5s;
-    overflow-y: auto;
-    z-index: 999;
-}
-
-.sideNavList {
-    list-style-type: none;
-    padding-top: 30px;
-    padding-left: 25px;
-}
-
-.sideNavItem {
-    font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: .05em;
-    line-height: 1.65em;
-    color: #514f4e;
-}
-
-.sideNavItem:not(:last-child) {
-    margin-bottom: 30px;
 }
