@@ -19,7 +19,6 @@ export function NavBar({ children, title='Beiens' }) {
                 <meta name="description" content="This is the official website of children's toys brand Beiens in Ukraine" />
             </Head>
             <nav className="container">
-                <div className={active ? document.body.style.overflow = 'hidden' : document.body.style.overflow = 'unset'} >
                     <div className={s.navContainer}>
                         <div className={s.navWrapper}>
                             <Link href={'/'}><a className={s.logo} ><Image src={logo} alt="logo" width={150} height={46} /></a></Link>
@@ -40,7 +39,6 @@ export function NavBar({ children, title='Beiens' }) {
                             </button>
                         </div>
                     </div>
-                </div>
             </nav>
             <main className="container">
                 {children}

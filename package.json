@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",
-    "deploy": "netlify deploy -p"
+    "deploy": "netlify deploy -build"
   },
   "dependencies": {
     "@netlify/plugin-nextjs": "^4.13.1",

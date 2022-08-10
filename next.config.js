@@ -4,6 +4,9 @@ const nextConfig = {
 }
 module.exports = {
   nextConfig,
+  images: {
+    domains: ["i.postimg.cc"],
+  },
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/i,
