@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from "next/link";
 import logo from '../../images/logo.png';
+import Instagram from '../../images/svg/instagramIcon.svg';
 import s from './Footer.module.css';
 
 export function Footer() {
@@ -20,6 +21,17 @@ export function Footer() {
                         </li>
                         <li className={s.contactsItem}>
                             <a className={s.activeLink} href='mailto:official.beiens.ua@gmail.com'>official.beiens.ua@gmail.com</a>
+                        </li>
+                    </ul>
+                    <ul className={s.socialsList}>
+                        <li className={s.socialsItem}>
+                            <Link href={'https://instagram.com/beiens_ua?igshid=YmMyMTA2M2Y='}>
+                                <a target="_blank" rel="noopener noreferrer">
+                                    <svg width={40} height={40} aria-label="Instagram icon">
+                                        <Instagram className={s.instagramIcon} />
+                                    </svg>
+                                </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>

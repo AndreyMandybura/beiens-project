@@ -26,6 +26,22 @@
     color: #514f4e;
 }
 
+.socialsList {
+    padding-bottom: 25px;
+}
+
+.socialsItem {
+    display: inline-flex;
+}
+
+.instagramIcon {
+    fill: #514f4e;
+}
+
+.socialsItem:hover .instagramIcon {
+    fill: #3f8cce;
+}
+
 .activeLink:hover {
     color: #3f8cce;
 }
