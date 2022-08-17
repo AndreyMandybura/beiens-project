@@ -2,6 +2,9 @@ import Image from 'next/image';
 import Link from "next/link";
 import logo from '../../images/logo.png';
 import Instagram from '../../images/svg/instagramIcon.svg';
+import Facebook from '../../images/svg/fbIcon.svg';
+import Pinterest from '../../images/svg/pinterestIcon.svg';
+import YouTube from '../../images/svg/youtubeIcon.svg';
 import s from './Footer.module.css';
 
 export function Footer() {
@@ -28,7 +31,34 @@ export function Footer() {
                             <Link href={'https://instagram.com/beiens_ua?igshid=YmMyMTA2M2Y='}>
                                 <a target="_blank" rel="noopener noreferrer">
                                     <svg width={40} height={40} aria-label="Instagram icon">
-                                        <Instagram className={s.instagramIcon} />
+                                        <Instagram className={s.socialsIcon} />
+                                    </svg>
+                                </a>
+                            </Link>
+                        </li>
+                        <li className={s.socialsItem}>
+                            <Link href={'https://www.facebook.com/people/Beiens_ua/100084279805756/'}>
+                                <a target="_blank" rel="noopener noreferrer">
+                                    <svg width={40} height={40} aria-label="Facebook icon">
+                                        <Facebook className={s.socialsIcon} />
+                                    </svg>
+                                </a>
+                            </Link>
+                        </li>
+                        <li className={s.socialsItem}>
+                            <Link href={'https://pin.it/4BKAOto'}>
+                                <a target="_blank" rel="noopener noreferrer">
+                                    <svg width={40} height={40} aria-label="Pinterest icon">
+                                        <Pinterest className={s.socialsIcon} />
+                                    </svg>
+                                </a>
+                            </Link>
+                        </li>
+                        <li className={s.socialsItem}>
+                            <Link href={'https://youtube.com/channel/UC0sz9AeCVMmSv3MUDgfgpiQ'}>
+                                <a target="_blank" rel="noopener noreferrer">
+                                    <svg width={40} height={40} aria-label="YouTube icon">
+                                        <YouTube className={s.socialsIcon} />
                                     </svg>
                                 </a>
                             </Link>

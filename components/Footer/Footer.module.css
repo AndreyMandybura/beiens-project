@@ -34,11 +34,15 @@
     display: inline-flex;
 }
 
-.instagramIcon {
+.socialsItem:not(:last-child) {
+    margin-right: 15px;
+}
+
+.socialsIcon {
     fill: #514f4e;
 }
 
-.socialsItem:hover .instagramIcon {
+.socialsItem:hover .socialsIcon {
     fill: #3f8cce;
 }
 
