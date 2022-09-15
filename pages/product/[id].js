@@ -9,14 +9,14 @@ export default function Product() {
         <>
             <NavBar title={"Продукт"}>
                 <h1>Product {router.query.id}</h1>
-                    {data.products.filter(p => router.query.id === p.id).map(product => 
-                        <ul key={product.id}>
-                            <li >
+                    <ul>
+                        {data.products.filter(p => router.query.id === p.id).map(product => 
+                            <li key={product.id}>
                                 <h2>{product.name}</h2>
                                 <p>{product.description}</p>
                             </li>
-                        </ul>
-                    )}
+                        )}
+                    </ul>
                 <Footer />
             </NavBar>
         </>

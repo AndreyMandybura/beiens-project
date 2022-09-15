@@ -18,8 +18,8 @@ export default function Category() {
                                         {product.name}
                                     </a>
                                 </Link>
-                                </li>
-                            )}
+                            </li>
+                        )}
                     </ul>
                 <Footer />
             </NavBar>
