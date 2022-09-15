@@ -43,8 +43,8 @@
         "available": "true",
         "categoryId": "1002",
         "price": "25 UAH",
-        "name": "Машинки2",
-        "description": "Машинки2"
+        "name": "Машинки 2",
+        "description": "Машинки 2"
     },
     {
         "id": "5",
@@ -52,7 +52,7 @@
         "categoryId": "1002",
         "price": "25 UAH",
         "name": "Машинки3",
-        "description": "Машинки3"
+        "description": "Машинки 3"
     },
     {
         "id": "6",
@@ -60,23 +60,23 @@
         "categoryId": "1003",
         "price": "25 UAH",
         "name": "Гризунці",
-        "description": "ТрусГризунціи"
+        "description": "Гризунці"
     },
     {
         "id": "7",
         "available": "true",
         "categoryId": "1003",
         "price": "25 UAH",
-        "name": "Гризунці2",
-        "description": "Гризунці2"
+        "name": "Гризунці 2",
+        "description": "Гризунці 2"
     },
     {
         "id": "8",
         "available": "true",
         "categoryId": "1003",
         "price": "25 UAH",
-        "name": "Гризунці2",
-        "description": "Гризунці2"
+        "name": "Гризунці 3",
+        "description": "Гризунці 3"
     }
 ]
 }
