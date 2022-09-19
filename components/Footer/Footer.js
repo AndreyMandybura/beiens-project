@@ -69,77 +69,77 @@ export function Footer() {
                     <h3 className={s.catalogTitle}>Каталог</h3>
                     <ul className={s.catalog}>
                         <li className={s.catalogItem}>
-                            <Link href={'/'}>
+                            <Link href={'/category/1001'}>
                                 <a className={s.activeLink}>
                                     <span>Іграшки для малюків</span>
                                 </a>
                             </Link>
                         </li>
                         <li className={s.catalogItem}>
-                            <Link href={'/'}>
+                            <Link href={'/category/1002'}>
                                 <a className={s.activeLink}>
                                     <span>Брязкальця та гризунці</span>
                                 </a>
                             </Link>
                         </li>
                         <li className={s.catalogItem}>
-                            <Link href={'/'}>
+                            <Link href={'/category/1003'}>
                                 <a className={s.activeLink}>
                                     <span>Іграшки нічники</span>
                                 </a>
                             </Link>
                         </li>
                         <li className={s.catalogItem}>
-                            <Link href={'/'}>
+                            <Link href={'/category/1004'}>
                                 <a className={s.activeLink}>
                                     <span>Розвиваючі центри, килимки та крісла-качалки</span>
                                 </a>
                             </Link>
                         </li>
                         <li className={s.catalogItem}>
-                            <Link href={'/'}>
+                            <Link href={'/category/1005'}>
                                 <a className={s.activeLink}>
                                     <span>Графічні планшети</span>
                                 </a>
                             </Link>
                         </li>
                         <li className={s.catalogItem}>
-                            <Link href={'/'}>
+                            <Link href={'/category/1006'}>
                                 <a className={s.activeLink}>
                                     <span>Дитячі ігрові комплекси</span>
                                 </a>
                             </Link>
                         </li>
                         <li className={s.catalogItem}>
-                            <Link href={'/'}>
+                            <Link href={'/category/1007'}>
                                 <a className={s.activeLink}>
                                     <span>Чудомобілі, ходунки, качалки</span>
                                 </a>
                             </Link>
                         </li>
                         <li className={s.catalogItem}>
-                            <Link href={'/'}>
+                            <Link href={'/category/1008'}>
                                 <a className={s.activeLink}>
                                     <span>Дитячі стільці</span>
                                 </a>
                             </Link>
                         </li>
                         <li className={s.catalogItem}>
-                            <Link href={'/'}>
+                            <Link href={'/category/1009'}>
                                 <a className={s.activeLink}>
                                     <span>3D ручки</span>
                                 </a>
                             </Link>
                         </li>
                         <li className={s.catalogItem}>
-                            <Link href={'/'}>
+                            <Link href={'/category/1010'}>
                                 <a className={s.activeLink}>
                                     <span>Столи для творчості</span>
                                 </a>
                             </Link>
                         </li>
                         <li className={s.catalogItem}>
-                            <Link href={'/'}>
+                            <Link href={'/category/1011'}>
                                 <a className={s.activeLink}>
                                     <span>Мобілі</span>
                                 </a>

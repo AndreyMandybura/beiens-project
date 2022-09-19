@@ -14,7 +14,7 @@ export function Trendind() {
             <h2 className={s.titleText}>популярне</h2>
             <ul className={s.trendidThumb}>
                 <li className={s.trendidItem}>
-                    <Link href={'/'}>
+                    <Link href={'/category/1001'}>
                         <a>
                             <div className={s.trendidImg}>
                                 <Image src={forBabies} 
@@ -27,7 +27,7 @@ export function Trendind() {
                     <p className={s.cardTitle}>для малюків</p>
                 </li>
                 <li className={s.trendidItem}>
-                    <Link href={'/'}>
+                    <Link href={'/category/1002'}>
                         <a>
                             <div className={s.trendidImg}>
                                 <Image src={rattles} 
@@ -42,7 +42,7 @@ export function Trendind() {
             </ul>
             <ul className={s.trendidThumb}>
                 <li className={s.trendidItem}>
-                    <Link href={'/'}>
+                    <Link href={'/category/1009'}>
                         <a>
                             <div className={s.trendidImgSL}>
                                 <Image src={pens}
@@ -55,7 +55,7 @@ export function Trendind() {
                     <p className={s.cardTitle}>3D ручки</p>
                 </li>
                 <li className={s.trendidItem}>
-                    <Link href={'/'}>
+                    <Link href={'/category/1004'}>
                         <a>
                             <div className={s.trendidImgSL}>
                                 <Image src={babyRugs} 
@@ -68,7 +68,7 @@ export function Trendind() {
                     <p className={s.cardTitle}>розвиваючі центри</p>
                 </li>
                 <li className={s.trendidItem}>
-                    <Link href={'/'}>
+                    <Link href={'/category/1005'}>
                         <a>
                             <div className={s.trendidImgSL}>
                                 <Image src={tablets} 

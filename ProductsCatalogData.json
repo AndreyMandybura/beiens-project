@@ -2,47 +2,58 @@
     "categories": [
         {
             "id": "1001",
-            "name": "Іграшки для малюків"
+            "name": "Іграшки для малюків",
+            "img": "https://i.postimg.cc/kXthqVx1/YZ06-10.jpg"
         },
         {
             "id": "1002",
-            "name": "Брязкальця та гризунці"
+            "name": "Брязкальця та гризунці",
+            "img": "https://i.postimg.cc/sgVNSdQf/YZ42-2.jpg"
         },
         {
             "id": "1003",
-            "name": "Іграшки нічники"
+            "name": "Іграшки нічники",
+            "img": "https://i.postimg.cc/7ZDXYdZd/ZN05-3.jpg"
         },
         {
             "id": "1004",
-            "name": "Розвиваючі центри, килимки та крісла-качалки"
+            "name": "Розвиваючі центри, килимки та крісла-качалки",
+            "img": "https://i.postimg.cc/jq4f7BGX/B250-1.jpg"
         },
         {
             "id": "1005",
-            "name": "Графічні планшети"
+            "name": "Графічні планшети",
+            "img": "https://i.postimg.cc/ZnD37NY5/ZJ17-green-4.jpg"
         },
         {
             "id": "1006",
-            "name": "Дитячі ігрові комплекси"
+            "name": "Дитячі ігрові комплекси",
+            "img": "https://i.postimg.cc/nztp2x6F/SQLQJ111-2.jpg"
         },
         {
             "id": "1007",
-            "name": "Чудомобілі, ходунки, качалки"
+            "name": "Чудомобілі, ходунки, качалки",
+            "img": "https://i.postimg.cc/d1BWTTq2/SQYM6016-1.jpg"
         },
         {
             "id": "1008",
-            "name": "Дитячі стільці"
+            "name": "Дитячі стільці",
+            "img": "https://i.postimg.cc/J4PtwFbQ/LQ6019-3.jpg"
         },
         {
             "id": "1009",
-            "name": "3D ручки"
+            "name": "3D ручки",
+            "img": "https://i.postimg.cc/3NbrxZmj/ZN17-12.jpg"
         },
         {
             "id": "1010",
-            "name": "Столи для творчості"
+            "name": "Столи для творчості",
+            "img": "https://i.postimg.cc/YCFX8qnM/LQ6010-8.jpg"
         },
         {
             "id": "1011",
-            "name": "Мобілі"
+            "name": "Мобілі",
+            "img": "https://i.postimg.cc/YqzNSGs4/MBL-03110-1.jpg"
         }
     ],
     "products": [
