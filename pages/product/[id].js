@@ -13,6 +13,8 @@ export default function Product() {
                         {data.products.filter(p => router.query.id === p.id).map(product => 
                             <li key={product.id}>
                                 <h2>{product.name}</h2>
+                                <h3>Ціна: {product.price}</h3>
+                                <h4>Наявний: {product.available}</h4>
                                 <p>{product.description}</p>
                             </li>
                         )}
