@@ -1,0 +1,41 @@
+.productSection {
+    padding-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+.productImgBox {
+    display: flex;
+}
+}
+
+.productImg {
+    position: relative;
+    width: 100%;
+    height: 374px;
+}
+
+@media (min-width: 768px) {
+    .productImg {
+        width: 380px;
+        height: 390px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .productImg {
+        width: 580px;
+        height: 590px;
+    }
+}
+
+@media (min-width: 768px) {
+    .priceBox {
+        padding-top: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .priceBox {
+        padding-top: 40px;
+    }
+}
