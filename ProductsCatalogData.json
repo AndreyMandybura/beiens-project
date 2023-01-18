@@ -59,7 +59,7 @@
     "products": [
     {
         "id": "1",
-        "available": "true",
+        "available": "false",
         "categoryId": "1001",
         "price": "886 UAH",
         "name": "Брязкальце-гризунець Beiens музичний Зайчик (YZ06pink) рожевий",

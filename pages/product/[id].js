@@ -1,12 +1,15 @@
 import { useRouter } from 'next/router';
 import Image from 'next/image';
+import { useState } from "react";
 import { NavBar } from "../../components/NavBar/NavBar";
 import { Footer } from '../../components/Footer/Footer';
 import data from '../../ProductsCatalogData.json';
+import {Available} from '../../components/Available/Available';
+import {NotAvailable} from '../../components/NotAvailable/NotAvailable';
 import s from "../../styles/Product.module.css"
 
 export default function Product() {
-    const router = useRouter()
+    const router = useRouter();
     return (
         <>
             <NavBar title={"Продукт"}>
@@ -26,9 +29,10 @@ export default function Product() {
                                     </div>
                                     <div className={s.priceBox}>
                                         <h3>Ціна: {product.price}</h3>
-                                        <h4>Наявний: {product.available}</h4>
+                                        {(product.available === 'true') ? <Available /> : <NotAvailable />}
                                     </div>
                                 </div>
+                                <h3>Опис</h3>
                                 <p>{product.description}</p>
                             </li>
                         )}
