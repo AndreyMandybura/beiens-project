@@ -53,10 +53,10 @@ export default function Product() {
                                 <p className={s.characteristic}><span className={s.productCharacteristicTitle}>Елементи живлення в комплекті: </span>{product.batteriesIncluded}</p>
                                 <p className={s.characteristic}><span className={s.productCharacteristicTitle}>Колір: </span>{product.colour}</p>
                                 <p className={s.characteristic}><span className={s.productCharacteristicTitle}>Вік дитини: </span>{product.age}</p>
-                                <p className={s.characteristic}><span className={s.productCharacteristicTitle}>Розмір &quot;без упаковки&quot;: </span>{product.dimensionsWithoutPackaging}</p>
-                                <p className={s.characteristic}><span className={s.productCharacteristicTitle}>Вага &quot;без упаковки&quot;: </span>{product.weightWithoutPackaging}</p>
-                                <p className={s.characteristic}><span className={s.productCharacteristicTitle}>Розмір &quot;в упаковці&quot;: </span>{product.dimensionsPacked}</p>
-                                <p className={s.characteristic}><span className={s.productCharacteristicTitle}>Вага &quot;в упаковці&quot;: </span>{product.weightPacked}</p>
+                                <p className={s.characteristic}><span className={s.productCharacteristicTitle}>Розмір &#40;без упаковки&#41;: </span>{product.dimensionsWithoutPackaging}</p>
+                                <p className={s.characteristic}><span className={s.productCharacteristicTitle}>Вага &#40;без упаковки&#41;: </span>{product.weightWithoutPackaging}</p>
+                                <p className={s.characteristic}><span className={s.productCharacteristicTitle}>Розмір &#40;в упаковці&#41;: </span>{product.dimensionsPacked}</p>
+                                <p className={s.characteristic}><span className={s.productCharacteristicTitle}>Вага &#40;в упаковці&#41;: </span>{product.weightPacked}</p>
                                 <p className={s.characteristic}><span className={s.productCharacteristicTitle}>Гарантія: </span>{product.warranty}</p>
                                 <p className={s.characteristic}><span className={s.productCharacteristicTitle}>Матеріал: </span>{product.material}</p>
                                 <p className={s.characteristic}><span className={s.productCharacteristicTitle}>Артикул: </span>{product.article}</p>
