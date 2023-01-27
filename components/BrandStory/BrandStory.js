@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import s from './BrandStory.module.css';
 
 export function BrandStory() {

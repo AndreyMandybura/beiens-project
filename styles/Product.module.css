@@ -2,6 +2,10 @@
     padding-bottom: 15px;
 }
 
+.productTitle {
+    padding-bottom: 15px;
+}
+
 @media (min-width: 768px) {
 .productImgBox {
     display: flex;
@@ -38,4 +42,55 @@
     .priceBox {
         padding-top: 40px;
     }
+}
+
+.priceTitle {
+    padding-top: 15px;
+}
+
+.productButton {
+    width: 100%;
+    padding: 0;
+}
+
+@media (min-width: 480px) {
+    .productButton {
+        height: 380px;
+    }
+}
+
+@media (min-width: 768px) {
+    .productButton {
+        width: 385px;
+        height: 395px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .productButton {
+        width: 584px;
+        height: 594px;
+    }
+}
+
+.description {
+    padding-top: 30px;
+}
+
+.characteristic {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .05em;
+    line-height: 2em;
+    color: #514f4e;
+}
+
+.productCharacteristicTitle {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: .05em;
+    line-height: 1.65em;
+    color: #514f4e;
 }
