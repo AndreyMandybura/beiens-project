@@ -20,7 +20,7 @@ export default function Category() {
                                         <div className={s.productLink}>
                                             <div className={s.productImg}>
                                                 <Image
-                                                src={product.img1}
+                                                src={product.images.find(index => index[1])}
                                                 layout="fill"
                                                 objectFit="cover"
                                                 alt="Kids toys"

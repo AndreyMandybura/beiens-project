@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router';
 import Image from 'next/image';
 import { useState } from "react";
+import FsLightbox from "fslightbox-react";
 import { NavBar } from "../../components/NavBar/NavBar";
 import { Footer } from '../../components/Footer/Footer';
 import data from '../../ProductsCatalogData.json';
@@ -10,6 +11,7 @@ import s from "../../styles/Product.module.css"
 
 export default function Product() {
     const router = useRouter();
+    const [toggler, setToggler] = useState(false);
     return (
         <>
             <NavBar title={"Продукт"}>
@@ -19,14 +21,20 @@ export default function Product() {
                             <li key={product.id}>
                                 <h2>{product.name}</h2>
                                 <div className={s.productImgBox}>
-                                    <div className={s.productImg}>
-                                        <Image
-                                        src={product.img1}
-                                        layout="fill"
-                                        objectFit="cover"
-                                        alt="Kids toys"
+                                       <button onClick={() => setToggler(!toggler)}>
+                                            <div className={s.productImg}>
+                                                <Image
+                                                    src={product.images.find(index => index[1])}
+                                                    layout="fill"
+                                                    objectFit="cover"
+                                                    alt="child with a toy"
+                                                />
+                                            </div>
+                                        </button>
+                                        <FsLightbox
+                                            toggler={toggler}
+                                            sources={product.images.map(i => i)}
                                         />
-                                    </div>
                                     <div className={s.priceBox}>
                                         <h3>Ціна: {product.price}</h3>
                                         {(product.available === 'true') ? <Available /> : <NotAvailable />}

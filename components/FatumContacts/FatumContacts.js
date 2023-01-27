@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import s from './FatumContacts.module.css';
 
 export function FatumContacts() {
