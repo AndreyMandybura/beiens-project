@@ -38,6 +38,11 @@ export default function Product() {
                                     <div className={s.priceBox}>
                                         <h2 className={s.priceTitle}>Ціна: {product.price}</h2>
                                         {(product.available === 'true') ? <Available /> : <NotAvailable />}
+                                        <div className={s.shortCharacteristic}>
+                                            <p className={s.characteristic}><span className={s.productCharacteristicTitle}>Тип: </span>{product.type}</p>
+                                            <p className={s.characteristic}><span className={s.productCharacteristicTitle}>Вид: </span>{product.view}</p>
+                                            <p className={s.characteristic}><span className={s.productCharacteristicTitle}>Стать дитини: </span>{product.gender}</p>
+                                        </div>
                                     </div>
                                 </div>
                                 <h2 className={s.descriptionTitle}>Опис</h2>
@@ -45,7 +50,7 @@ export default function Product() {
                                 <h2 className={s.characteristicTitle}>Характеристики</h2>
                                 <p className={s.characteristic}><span className={s.productCharacteristicTitle}>Тип: </span>{product.type}</p>
                                 <p className={s.characteristic}><span className={s.productCharacteristicTitle}>Вид: </span>{product.view}</p>
-                                <p className={s.description}><span className={s.productCharacteristicTitle}>Додаткові характеристики: </span>{product.additionalFeatures}</p>
+                                <p className={s.characteristic}><span className={s.productCharacteristicTitle}>Додаткові характеристики: </span><p className={s.additionalFeatures}>{product.additionalFeatures}</p></p>
                                 <p className={s.characteristic}><span className={s.productCharacteristicTitle}>Стать дитини: </span>{product.gender}</p>
                                 <p className={s.characteristic}><span className={s.productCharacteristicTitle}>Комплектація: </span>{product.completeSet}</p>
                                 <p className={s.characteristic}><span className={s.productCharacteristicTitle}>Тип елементів живлення: </span>{product.typeOfBatteries}</p>

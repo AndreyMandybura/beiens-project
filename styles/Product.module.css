@@ -34,18 +34,47 @@
 
 @media (min-width: 768px) {
     .priceBox {
-        padding-top: 40px;
+        padding-top: 60px;
     }
 }
 
 @media (min-width: 1200px) {
     .priceBox {
-        padding-top: 40px;
+        padding-top: 100px;
+    }
+}
+
+.shortCharacteristic {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .shortCharacteristic {
+        display: block;
+        padding-top: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .shortCharacteristic {
+        padding-top: 130px;
     }
 }
 
 .priceTitle {
     padding-top: 15px;
+}
+
+@media (min-width: 768px) {
+    .priceTitle {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .priceTitle {
+        font-size: 45px;
+    }
 }
 
 .productButton {
@@ -78,10 +107,22 @@
     padding-top: 30px;
 }
 
+@media (min-width: 768px) {
+    .descriptionTitle {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .descriptionTitle {
+        font-size: 40px;
+    }
+}
+
 .description {
     padding-top: 5px;
     padding-bottom: 5px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     letter-spacing: .05em;
     line-height: 2em;
@@ -89,24 +130,94 @@
     text-align: justify;
 }
 
+@media (min-width: 480px) {
+    .description {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    .description {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .description {
+        font-size: 18px;
+    }
+}
+
 .characteristicTitle {
     padding-top: 30px;
+}
+
+@media (min-width: 768px) {
+    .characteristicTitle {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .characteristicTitle {
+        font-size: 40px;
+    }
 }
 
 .characteristic {
     padding-top: 5px;
     padding-bottom: 5px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     letter-spacing: .05em;
     line-height: 2em;
     color: #514f4e;
 }
 
+@media (min-width: 480px) {
+    .characteristic {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    .characteristic {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .characteristic {
+        font-size: 18px;
+    }
+}
+
 .productCharacteristicTitle {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 700;
     letter-spacing: .05em;
     line-height: 1.65em;
     color: #514f4e;
+}
+
+@media (min-width: 480px) {
+    .productCharacteristicTitle {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    .productCharacteristicTitle {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .productCharacteristicTitle {
+        font-size: 20px;
+    }
+}
+
+.additionalFeatures {
+    text-align: justify;
 }
