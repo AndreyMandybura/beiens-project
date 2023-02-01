@@ -6,7 +6,9 @@ import { NavBar } from "../../components/NavBar/NavBar";
 import { Footer } from '../../components/Footer/Footer';
 import data from '../../ProductsCatalogData.json';
 import {Available} from '../../components/Available/Available';
-import {NotAvailable} from '../../components/NotAvailable/NotAvailable';
+import { NotAvailable } from '../../components/NotAvailable/NotAvailable';
+import IconSliderRight from "../../images/svg/icon_slider_right.svg";
+import IconSliderLeft from "../../images/svg/icon_slider_left.svg";
 import s from "../../styles/Product.module.css"
 
 export default function Product() {
@@ -30,6 +32,12 @@ export default function Product() {
                                                     alt="child with a toy"
                                                 />
                                             </div>
+                                                <svg width={40} height={40} className={s.iconSliderLeft}>
+                                                    <IconSliderLeft aria-label="Mobile menu switch" className={s.iconSlider} />
+                                                </svg>
+                                                <svg width={40} height={40} className={s.iconSliderRight}>
+                                                    <IconSliderRight aria-label="Mobile menu switch" className={s.iconSlider} />
+                                                </svg>
                                         </button>
                                         <FsLightbox
                                             toggler={toggler}

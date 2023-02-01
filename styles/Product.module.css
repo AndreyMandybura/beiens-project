@@ -35,12 +35,14 @@
 @media (min-width: 768px) {
     .priceBox {
         padding-top: 60px;
+        padding-left: 20px;
     }
 }
 
 @media (min-width: 1200px) {
     .priceBox {
         padding-top: 100px;
+        padding-left: 40px;
     }
 }
 
@@ -78,6 +80,7 @@
 }
 
 .productButton {
+    position: relative;
     width: 100%;
     padding: 0;
     border: 0;
@@ -220,4 +223,21 @@
 
 .additionalFeatures {
     text-align: justify;
+}
+
+.iconSlider {
+    position: absolute;
+    fill: #3e77aa;
+}
+
+.iconSliderLeft {
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+}
+
+.iconSliderRight {
+    position: absolute;
+    bottom: 50%;
+    right: 0;
 }
