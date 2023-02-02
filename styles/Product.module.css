@@ -84,6 +84,12 @@
     width: 100%;
     padding: 0;
     border: 0;
+    transition-duration: 500ms;
+}
+
+.productButton:hover {
+    transform: scale(1.02);
+    transition-duration: 500ms;
 }
 
 @media (min-width: 480px) {
@@ -225,19 +231,34 @@
     text-align: justify;
 }
 
-.iconSlider {
+/* .iconSlider {
     position: absolute;
     fill: #3e77aa;
-}
+} */
 
 .iconSliderLeft {
     position: absolute;
     bottom: 50%;
     left: 0;
+    fill: #3e77aa;
+    transition-duration: 500ms;
+}
+
+.productButton:hover .iconSliderLeft {
+    transform: scale(1.5);
+    transition-duration: 500ms;
 }
 
 .iconSliderRight {
     position: absolute;
     bottom: 50%;
     right: 0;
+    fill: #3e77aa;
+    transition-duration: 500ms;
+}
+
+.productButton:hover 
+.iconSliderRight {
+    transform: scale(1.5);
+    transition-duration: 500ms;
 }
