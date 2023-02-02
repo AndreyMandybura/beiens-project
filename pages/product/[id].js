@@ -33,10 +33,10 @@ export default function Product() {
                                                 />
                                             </div>
                                                 <svg width={40} height={40} className={s.iconSliderLeft}>
-                                                    <IconSliderLeft aria-label="Mobile menu switch" className={s.iconSlider} />
+                                                    <IconSliderLeft aria-label="IconSliderLeft" className={s.iconSlider} />
                                                 </svg>
                                                 <svg width={40} height={40} className={s.iconSliderRight}>
-                                                    <IconSliderRight aria-label="Mobile menu switch" className={s.iconSlider} />
+                                                    <IconSliderRight aria-label="IconSliderRight" className={s.iconSlider} />
                                                 </svg>
                                         </button>
                                         <FsLightbox
