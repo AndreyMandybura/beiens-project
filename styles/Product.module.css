@@ -137,6 +137,7 @@
     line-height: 2em;
     color: #514f4e;
     text-align: justify;
+    white-space: pre-line;
 }
 
 @media (min-width: 480px) {
