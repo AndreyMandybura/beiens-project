@@ -166,6 +166,20 @@ export function Footer() {
                                 </a>
                             </Link>
                         </li>
+                        <li className={s.catalogItem}>
+                            <Link href={'/category/1015'}>
+                                <a className={s.activeLink}>
+                                    <span>Ігрові набори</span>
+                                </a>
+                            </Link>
+                        </li>
+                        <li className={s.catalogItem}>
+                            <Link href={'/category/1016'}>
+                                <a className={s.activeLink}>
+                                    <span>Генератори бульбашок та ванна кімната</span>
+                                </a>
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </footer>
