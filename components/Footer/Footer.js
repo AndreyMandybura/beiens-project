@@ -159,6 +159,13 @@ export function Footer() {
                                 </a>
                             </Link>
                         </li>
+                        <li className={s.catalogItem}>
+                            <Link href={'/category/1014'}>
+                                <a className={s.activeLink}>
+                                    <span>Дитячі велосипеди</span>
+                                </a>
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </footer>
