@@ -120,7 +120,7 @@ export function Footer() {
                         <li className={s.catalogItem}>
                             <Link href={'/category/1008'}>
                                 <a className={s.activeLink}>
-                                    <span>Дитячі стільці</span>
+                                    <span>Дитячі стільці та столи для творчості</span>
                                 </a>
                             </Link>
                         </li>
@@ -128,13 +128,6 @@ export function Footer() {
                             <Link href={'/category/1009'}>
                                 <a className={s.activeLink}>
                                     <span>3D ручки</span>
-                                </a>
-                            </Link>
-                        </li>
-                        <li className={s.catalogItem}>
-                            <Link href={'/category/1010'}>
-                                <a className={s.activeLink}>
-                                    <span>Столи для творчості</span>
                                 </a>
                             </Link>
                         </li>
