@@ -44,7 +44,7 @@ export default function Product() {
                                             sources={product.images.map(i => i)}
                                         />
                                     <div className={s.priceBox}>
-                                        <h2 className={s.priceTitle}>Ціна: {product.price}</h2>
+                                        <h2 className={s.priceTitle}><span className={s.price}>Ціна:</span> {product.price}</h2>
                                         {(product.available === 'true') ? <Available /> : <NotAvailable />}
                                         <div className={s.shortCharacteristic}>
                                             <p className={s.characteristic}><span className={s.productCharacteristicTitle}>Тип: </span>{product.type}</p>

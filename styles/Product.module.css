@@ -258,3 +258,7 @@
     transform: scale(1.5);
     transition-duration: 500ms;
 }
+
+.price {
+    margin: -3px;
+}
