@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import GalleryCollectionItem from '../GalleryCollectionItem/GalleryCollectionItem';
 import s from './GalleryCollection.module.css';
 import data from './GalleryCollectionData.json';
 
@@ -9,17 +9,10 @@ export function GalleryCollection() {
             <div className={s.gallerCollectionSection}>
                 <ul className={s.gallerCollection}>
                     {data.map(img =>
-                        <li className={s.gallerCollectionItem} key={img.id}>
-                            <div className={s.gallerCollectionImg}>
-                                <Image src={img.url}
-                                    alt=""
-                                    layout="fill"
-                                    objectFit="cover"
-                                />
-                            </div>
-                        </li>
+                        <GalleryCollectionItem key={img.id} img={img.url} />
                     )}
                 </ul>
+                
             </div>
         </>
     );
