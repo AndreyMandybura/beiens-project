@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from 'next/image';
 import Head from "next/head";
 import { useState } from "react";
+import ScrollToTop from "react-scroll-to-top";
 import CloseBtn from "../../images/svg/close_40px.svg";
 import MenuIcon from "../../images/svg/menu_24px.svg";
 import logo from "../../images/logo.png";
@@ -18,6 +19,7 @@ export function NavBar({ children, title='Beiens' }) {
                 <meta name="keywords" content="beiens" />
                 <meta name="description" content="This is the official website of children's toys brand Beiens in Ukraine" />
             </Head>
+            <ScrollToTop top={700} color={"#3e77aa"} smooth={true}/>
             <nav className="container">
                     <div className={s.navContainer}>
                         <div className={s.navWrapper}>
