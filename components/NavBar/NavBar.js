@@ -19,7 +19,7 @@ export function NavBar({ children, title='Beiens' }) {
                 <meta name="keywords" content="beiens" />
                 <meta name="description" content="This is the official website of children's toys brand Beiens in Ukraine" />
             </Head>
-            <ScrollToTop top={700} color={"#3e77aa"} smooth={true}/>
+            <ScrollToTop top={700} color={"#3f8cce"} smooth={true}/>
             <nav className="container">
                     <div className={s.navContainer}>
                         <div className={s.navWrapper}>
