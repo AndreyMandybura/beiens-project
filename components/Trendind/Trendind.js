@@ -3,7 +3,7 @@ import s from './Trendind.module.css';
 import forBabies from '../../images/trendidImages/YZ06-5.jpg'; 
 import rattles from '../../images/trendidImages/YZ42-6.jpg'; 
 import pens from '../../images/trendidImages/ZN17-3.jpg';
-import babyRugs from '../../images/trendidImages/B250-1.jpg';
+import gameSets from '../../images/trendidImages/BC9902-3.jpg';
 import tablets from '../../images/trendidImages/ZJ16-C-2.jpg';
 import Link from 'next/link';
 
@@ -55,17 +55,17 @@ export function Trendind() {
                     <p className={s.cardTitle}>3D ручки</p>
                 </li>
                 <li className={s.trendidItem}>
-                    <Link href={'/category/1004'}>
+                    <Link href={'/category/1015'}>
                         <a>
                             <div className={s.trendidImgSL}>
-                                <Image src={babyRugs} 
+                                <Image src={gameSets} 
                                 layout="fill"
                                 objectFit="cover"
                                 alt="child playing on a children's rug" />
                             </div>
                         </a>
                     </Link>
-                    <p className={s.cardTitle}>розвиваючі центри</p>
+                    <p className={s.cardTitle}>ігрові набори</p>
                 </li>
                 <li className={s.trendidItem}>
                     <Link href={'/category/1005'}>

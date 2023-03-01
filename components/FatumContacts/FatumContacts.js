@@ -16,7 +16,7 @@ export function FatumContacts() {
                         <a className={s.activeLink} href='mailto:official.beiens.ua@gmail.com'>official.beiens.ua@gmail.com</a>
                     </li>
                 </ul>
-                <h3 className={s.contactsTitle}>Відділ гуртової торгівлі</h3>
+                <h3 className={s.contactsTitle}>Співпраця з нами</h3>
                 <ul className={s.contactsList}>
                     <li className={s.contactsItem}>
                         <a className={s.activeLink} href='tel:+380675378686'>+38 067 537 86 86</a>
