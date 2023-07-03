@@ -169,7 +169,7 @@ export function Footer() {
                         <li className={s.catalogItem}>
                             <Link href={'/category/1016'}>
                                 <a className={s.activeLink}>
-                                    <span>Генератори бульбашок та ванна кімната</span>
+                                    <span>Генератори бульбашок, ванна кімната та пляж</span>
                                 </a>
                             </Link>
                         </li>
