@@ -134,3 +134,61 @@
 .navItem:focus {
     color: #3f8cce;
 }
+
+.dropdown {
+    position: relative;
+}
+
+.dropdownToggle {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.dropdownMenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 10px 0;
+    min-width: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.dropdownMenu li {
+    padding: 8px 16px;
+    white-space: nowrap;
+}
+
+.dropdownMenu li a {
+    color: #514f4e;
+    text-decoration: none;
+    font-weight: 500;
+    display: block;
+}
+
+.dropdownMenu li a:hover {
+    color: #3f8cce;
+}
+
+@media (min-width: 768px) {
+    .dropdown:hover .dropdownMenu {
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    .dropdownMenu {
+        position: static;
+        box-shadow: none;
+        border: none;
+        padding-left: 15px;
+        background-color: #fff;
+    }
+
+    .showMenu {
+        display: block;
+    }
+}

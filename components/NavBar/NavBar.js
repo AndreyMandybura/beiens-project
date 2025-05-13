@@ -10,6 +10,7 @@ import s from "./NavBar.module.css";
 
 export function NavBar({ children, title='Beiens' }) {
     const [active, setActive] = useState(false);
+    const [isCatalogOpen, setCatalogOpen] = useState(false);
     return (
         <>
             <Head>
@@ -27,13 +28,22 @@ export function NavBar({ children, title='Beiens' }) {
                             <div className={active ? s.activeNavListContainer : s.navListContainer}>
                                 <ul className={s.navList}>
                                     <li className={s.navItem}><Link href={'/'}><a>головна</a></Link></li>
-                                    <li className={s.navItem}><Link href={'/catalog'}><a>каталог</a></Link></li>
+                                    <li className={`${s.navItem} ${s.dropdown}`} onClick={() => setCatalogOpen(!isCatalogOpen)}>
+                                    <span className={s.dropdownToggle}>каталог</span>
+                                    <ul className={`${s.dropdownMenu} ${isCatalogOpen ? s.showMenu : ""}`}>
+                                        <li><Link href="/catalog"><a>Beiens</a></Link></li>
+                                        <li><Link href="/urmywocatalog"><a>Urmywo</a></Link></li>
+                                    </ul>
+                                </li>
                                     <li className={s.navItem}><Link href={'/brand'}><a>про бренд</a></Link></li>
                                     <li className={s.navItem}><Link href={'/gallery'}><a>галерея</a></Link></li>
                                     <li className={s.navItem}><Link href={'/contacts'}><a>контакти</a></Link></li>
                                 </ul>
                             </div>
-                            <button type="button" className={s.menuButton} onClick={() => setActive(!active)}>
+                            <button type="button" className={s.menuButton} onClick={() => {
+                            setActive(!active);
+                            setCatalogOpen(false);
+                                    }}>
                                 <svg width={40} height={40} aria-label="Mobile menu switch" className={active ? s.iconCross : s.iconMenu}>
                                     <CloseBtn className={s.iconCross} />
                                     <MenuIcon className={s.iconMenu} />
