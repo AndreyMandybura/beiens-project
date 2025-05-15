@@ -9,6 +9,11 @@
             "id": "2002",
             "name": "Брязкальця та гризунці",
             "img": "https://i.postimg.cc/sgVNSdQf/YZ42-2.jpg"
+        },
+        {
+            "id": "2003",
+            "name": "Дитячі музичні інструменти",
+            "img": "https://i.postimg.cc/nVy4p5cX/urmywo-660orange-2.jpg"
         }
         
     ],
@@ -289,6 +294,75 @@
 		"warranty": "14 днів",
 		"material": "Поліестер",
 		"article": "WB01",
+		"countryOfBrandRegistration": "Китай",
+		"countryOfOrigin": "Китай"
+    },
+    {
+        "id": "2009",
+        "available": "true",
+        "categoryId": "2003",
+        "price": "765 грн",
+        "name": "Дитячий музичний інструмент Urmywo Дудка (660orange) помаранчевий",
+        "description": "Дитячий музичний інструмент Urmywo Дудка - весела і розвиваюча іграшка для маленьких дослідників звуків! Яскравий дизайн, захоплюючі функції та зручність використання зроблять гру незабутньою. \n \n Дудка виконана у формі рогу та оснащена безліччю кнопок, кожна з яких активує звук певної тварини під час продування. Світлові індикатори на ручці реагують на звук, додаючи елемент інтерактивності. У комплект входять дві змінні насадки (мундштуки), що забезпечує гігієнічність при грі кількох дітей одночасно. Додатково передбачений зручний ремінець, завдяки якому можна носити дудку на плечі. \n \n Urmywo Дудка не тільки розважає, а й допомагає розвивати музичний слух, дихання та моторику дитини. Відмінний вибір для веселих ігор та перших музичних експериментів!",
+        "images": [
+            "https://i.postimg.cc/BQ2x6gXM/urmywo-660orange-1.jpg",
+            "https://i.postimg.cc/nVy4p5cX/urmywo-660orange-2.jpg",
+            "https://i.postimg.cc/y8B0SZRB/urmywo-660orange-3.jpg",
+            "https://i.postimg.cc/zDbwm55m/urmywo-660orange-4.jpg",
+            "https://i.postimg.cc/9QpZPQP9/urmywo-660orange-5.jpg"
+        ],
+        "type": "Розвиваючі",
+		"view": "Дитячі музичні інструменти",
+		"additionalFeatures": "Дудка виконана у формі рогу та оснащена безліччю кнопок, кожна з яких активує звук певної тварини під час продування",
+		"gender": "Хлопчик/дівчинка",
+		"completeSet": "Дудка, дві змінні насадки (мундштуки), ремінець",
+		"typeOfBatteries": "ААА",
+		"numberOfBatteries": "3",
+		"batteriesIncluded": "Ні",
+		"colour": "Помаранчевий",
+		"age": "3+",
+		"dimensionsWithoutPackaging": "210/80/95 мм",
+		"weightWithoutPackaging": "0,24 кг",
+		"dimensionsPacked": "-",
+		"weightPacked": "0,35 кг",
+		"warranty": "14 днів",
+		"material": "Пластик, електронні елементи",
+		"article": "660orange",
+		"countryOfBrandRegistration": "Китай",
+		"countryOfOrigin": "Китай"
+    },
+    {
+        "id": "2010",
+        "available": "true",
+        "categoryId": "2003",
+        "price": "765 грн",
+        "name": "Дитячий музичний інструмент Urmywo Дудка (660green) зелений",
+        "description": "Дитячий музичний інструмент Urmywo Дудка - весела і розвиваюча іграшка для маленьких дослідників звуків! Яскравий дизайн, захоплюючі функції та зручність використання зроблять гру незабутньою. \n \n Дудка виконана у формі рогу та оснащена безліччю кнопок, кожна з яких активує звук певної тварини під час продування. Світлові індикатори на ручці реагують на звук, додаючи елемент інтерактивності. У комплект входять дві змінні насадки (мундштуки), що забезпечує гігієнічність при грі кількох дітей одночасно. Додатково передбачений зручний ремінець, завдяки якому можна носити дудку на плечі. \n \n Urmywo Дудка не тільки розважає, а й допомагає розвивати музичний слух, дихання та моторику дитини. Відмінний вибір для веселих ігор та перших музичних експериментів!",
+        "images": [
+            "https://i.postimg.cc/1RfkLgf9/urmywo-660green-1.jpg",
+            "https://i.postimg.cc/50kmB2Vg/urmywo-660green-2.jpg",
+            "https://i.postimg.cc/wMCcr43s/urmywo-660green-3.jpg",
+            "https://i.postimg.cc/5yYSnW9V/urmywo-660green-4.jpg",
+            "https://i.postimg.cc/nVgyZHDq/urmywo-660green-5.jpg",
+            "https://i.postimg.cc/02SLyLYF/urmywo-660green-6.jpg"
+        ],
+        "type": "Розвиваючі",
+		"view": "Дитячі музичні інструменти",
+		"additionalFeatures": "Дудка виконана у формі рогу та оснащена безліччю кнопок, кожна з яких активує звук певної тварини під час продування",
+		"gender": "Хлопчик/дівчинка",
+		"completeSet": "Дудка, дві змінні насадки (мундштуки), ремінець",
+		"typeOfBatteries": "ААА",
+		"numberOfBatteries": "3",
+		"batteriesIncluded": "Ні",
+		"colour": "Зелений",
+		"age": "3+",
+		"dimensionsWithoutPackaging": "210/80/95 мм",
+		"weightWithoutPackaging": "0,24 кг",
+		"dimensionsPacked": "-",
+		"weightPacked": "0,35 кг",
+		"warranty": "14 днів",
+		"material": "Пластик, електронні елементи",
+		"article": "660orange",
 		"countryOfBrandRegistration": "Китай",
 		"countryOfOrigin": "Китай"
     }
