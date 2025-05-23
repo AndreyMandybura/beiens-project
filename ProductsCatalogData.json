@@ -5369,6 +5369,46 @@
 		"article": "30853",
 		"countryOfBrandRegistration": "Китай",
 		"countryOfOrigin": "Китай"
+    },
+	{
+        "id": "156",
+        "available": "true",
+        "categoryId": "1015",
+        "price": "951 грн",
+        "name": "Ігровий набір Beiens Кошик з овочами і фруктами на липучках 25 предметів (B118)",
+        "description": "Хто найкращі кухарі у світі, чоловіки чи жінки? Компанія Beiens пропонує взяти участь у цьому змаганні Вам і Вашій дитині. У кошику Ви знайдете велику кількість овочів і фруктів, столові прибори, посуд, обробну дошку, плиту і чайник. Продуманий дизайн і яскраві кольори зроблять гру максимально реалістичною. Процес приготування вишуканих кулінарних страв завжди дуже активний і захопливий. Не проґавте можливість весело провести час зі своїм малюком, попутно навчивши його всіх тонкощів поведінки на кухні.",
+        "images": [
+            "https://i.postimg.cc/SQPm5TJq/beiens-b118-1.png",
+			"https://i.postimg.cc/6q8tqRbD/beiens-b118-2.jpg",
+			"https://i.postimg.cc/65GBNrvZ/beiens-b118-3.png",
+			"https://i.postimg.cc/7hjD26pb/beiens-b118-4.png",
+			"https://i.postimg.cc/52db9XBR/beiens-b118-5.png",
+			"https://i.postimg.cc/K8PF1mQv/beiens-b118-6.png",
+			"https://i.postimg.cc/xdg2PgWw/beiens-b118-7.png",
+			"https://i.postimg.cc/43XGtjFv/beiens-b118-8.png",
+			"https://i.postimg.cc/JnnWYZ8G/beiens-b118-9.png",
+			"https://i.postimg.cc/pT6MwrVk/beiens-b118-10.png",
+			"https://i.postimg.cc/nr9fpxCx/beiens-b118-11.png"
+        ],
+        "type": "Розвиваючі",
+		"view": "Ігрові набори",
+		"additionalFeatures": "Дитячий набір овочів та фруктів на липучках. Гра з цим набором познайомить дитину з видами овочів та фруктів, а також із приладдям посуду.",
+		"gender": "Хлопчик/Дівчинка",
+		"completeSet": "Кошик, 25 предметів",
+		"typeOfBatteries": "Ні",
+		"numberOfBatteries": "Ні",
+		"batteriesIncluded": "Ні",
+		"colour": "Різнокольоровий",
+		"age": "3+",
+		"dimensionsWithoutPackaging": "295/140/195 мм",
+		"weightWithoutPackaging": "0,65 кг",
+		"dimensionsPacked": "295/140/195 мм",
+		"weightPacked": "0,65 кг",
+		"warranty": "14 днів",
+		"material": "Пластик",
+		"article": "B118",
+		"countryOfBrandRegistration": "Китай",
+		"countryOfOrigin": "Китай"
     }
 ]
 }
